@@ -1,0 +1,6 @@
+<div class="mt-4">
+    <h1 class="mb-4 text-lg font-bold">Team {{ index+1 }}</h1>
+    <ul class="p-4 mb-5 border border-gray-400 rounded-sm">
+        <li *ngFor="let member of team">{{ member | titlecase }}</li>
+    </ul>
+</div>
